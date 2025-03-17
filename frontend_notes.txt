@@ -1,0 +1,52 @@
+BOOTSTRAP JS AND REACT NODES
+monday monday 17-03-2025
+
+steps to create a new git repo;
+1:login to github account
+2:on top right click on plus and select new repository
+3.give repository name
+4.add description
+5.keep it piblic
+6.select the chechbox add a Readme file
+7.click create repository
+
+create new file and name heading as git commands
+
+GIT COMMANDS
+1.$ git status : used to current status of the repo.
+2.$ git clone https://github.com/Sharath1105/pfile_fe_mar25 :- above command copies the repo from the server(remote repo)into our computer
+3.$ git pull origin make : this command downloads the updated main here is the deafault branch name
+4.$ git config --global user.name "sharath1105"
+5.$ git config --global user.email "sharathgowri1105"
+
+STEPS TO CREATE PERSONAL ACCESS TOKEN(PAT)
+1.click on profile icon
+2.scroll down and click settings
+3.In the new window scroll down and click developers settings on the left corner
+4.In the window on top left click tokens and then select tokens classic
+5.
+6.this pat
+7.click expiery and select no expiery
+8.select the checkbox Repo
+9.scroll down and click generate tokens
+10.copy the pat and mail to yourself.
+
+STEPS TO SINK REMOTE REPO WITH LOCAL Repo
+$ git clone https://<PAT>github.com/Sharath1105/pfile_fe_mar25
+
+STEPS TO UPDATE THE REMOTE REPO(copy the file from local repo to remote repo)
+$ git add . 
+in the above command the git will mark (will make list of)all the file that need to be updated in the remote repo(server)
+$ git commit -m "relevant message"
+the above command creates an object that will have all the marked files(with security that is encryption)
+$ git oush origin <branch name>
+ex:git psh origin main
+above command pushes the file to the branch main
+
+
+
+
+
+
+
+
